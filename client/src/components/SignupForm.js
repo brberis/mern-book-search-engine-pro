@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Form, Button, Alert } from 'react-bootstrap';
+import { Form, Button, Alert } from 'bootstrap-4-react';
 
 import { createUser } from '../utils/API';
 import Auth from '../utils/auth';
@@ -20,7 +20,7 @@ const SignupForm = () => {
   const handleFormSubmit = async (event) => {
     event.preventDefault();
 
-    // check if form has everything (as per react-bootstrap docs)
+    // check if form has everything (as per bootstrap-4-react docs)
     const form = event.currentTarget;
     if (form.checkValidity() === false) {
       event.preventDefault();
