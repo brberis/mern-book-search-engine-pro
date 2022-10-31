@@ -17,8 +17,6 @@ const httpLink = createHttpLink({
 
 // Because we're not using the first parameter, but we still need to access 
 // the second one, we can use an underscore _ to serve as a placeholder for the first parameter.
-
-
 const authLink = setContext((_, { headers }) => {
   const token = localStorage.getItem('id_token');
   return {

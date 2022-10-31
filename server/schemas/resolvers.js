@@ -61,7 +61,7 @@ const resolvers = {
       if (context.user) {
         const updatedUser = await User.findOneAndUpdate(
           { _id: userId },
-          { $pull: { savedBooks: { _id: bookId } } },
+          { $pull: { savedBooks: { bookId: bookId } } },
           { new: true, runValidators: false }
         );
 
@@ -69,10 +69,9 @@ const resolvers = {
       }
 
       throw new AuthenticationError('You need to be logged in!');
-    }
-    
+    }   
   }
   };
-
   
+
 module.exports = resolvers;
