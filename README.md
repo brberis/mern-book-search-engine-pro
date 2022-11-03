@@ -1,4 +1,3 @@
-# Book Search Engine Starter Code
 [comment]: <> (This readme was created by Nodinq Readme Generator)
 ![alt text](https://img.shields.io/badge/License-MIT-brightgreen)
 ![alt text](https://img.shields.io/badge/Ver.-1.0.0-blue)
