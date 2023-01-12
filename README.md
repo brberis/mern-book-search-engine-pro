@@ -26,6 +26,21 @@ This MERN Stack project use Apollo client to manage GrahpQL, Mongoose, NodeJs am
 This app is deployed in Heroku.
 [Click Here](https://mern-book-search-engine-pro.herokuapp.com) to view the demo app.
 
+## How to Install
+
+To install this Google Books Search Engine please follow these steps:
+
+1. Clone the repository by running the command git clone: 
+[https://github.com/brberis/mern-book-search-engine-pro.git](https://github.com/brberis/mern-book-search-engine-pro.git)
+2. Navigate to the root of the project directory using the command `cd repo-name`.
+3. Run `npm install` to install all the necessary dependencies.
+4. Start the development server by running the command `npm start`
+5. In the browser navigate to `http://localhost:3000` to access the app
+
+### Note:
+- Make sure that you have the latest version of Node.js and npm installed on your machine
+- Make sure you have MongoDB installed and running before start the development server. 
+
 
 ## Questions
 
